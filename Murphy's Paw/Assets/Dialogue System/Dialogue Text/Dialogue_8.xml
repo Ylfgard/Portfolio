@@ -1,0 +1,32 @@
+<dialogue>
+    <sentence>
+        <text>Дьявол: Это хорошо</text>
+        <duration>3</duration> 
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Мерф: Что хорошо? Что я чуть не разбилась?</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>  
+        <text>Дьявол: Хорошо, что ты верила, что упадешь, а не разобьешься.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath> 
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: И кто-то как раз расположил специально для тебя мягкую поверхность.</text>
+        <duration>3</duration>    
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence> 
+    <sentence>
+        <text>Дьявол: Проклятия бывают так точны в своих формулировках.</text> 
+        <duration>3</duration>  
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath> 
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+</dialogue>

@@ -1,0 +1,14 @@
+<dialogue>
+    <sentence>
+        <text>Мерф: Звезды так и не видать.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Падающая звезда, которая изгоняет дьявола, чудно. Обычно ее используют, чтобы загадывать желания.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+</dialogue>

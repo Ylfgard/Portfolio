@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Obstacle
+  - Enemy
+  - Medicine
+  - Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Environment
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 226447261
+    locked: 0
+  - name: WeaponBehind
+    uniqueID: 276036853
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: WeaponFront
+    uniqueID: 3272919895
+    locked: 0
+  - name: Player
+    uniqueID: 4070033729
+    locked: 0
+  - name: Trees
+    uniqueID: 18285441
+    locked: 0
+  - name: BlockHand
+    uniqueID: 3125770829
+    locked: 0

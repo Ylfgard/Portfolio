@@ -1,0 +1,26 @@
+<dialogue>
+    <sentence>
+        <text>Дьявол: Ты никогда не думала, что, ну знаешь, кому то нужны такие дьяволы как я.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Чтобы забрать на себя часть вины.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Мерф: Для дьявола ты слишком галантен.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Я слежу за имиджем.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+</dialogue>

@@ -1,0 +1,20 @@
+<dialogue>
+    <sentence>
+        <text>Дьявол: Ударь их! Скорее!</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Мерф: Мур, чем? У меня же лапки!</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Значит бей лапками, со всей силы.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+</dialogue>

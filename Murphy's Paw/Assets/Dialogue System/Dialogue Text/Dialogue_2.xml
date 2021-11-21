@@ -1,0 +1,26 @@
+<dialogue>
+    <sentence>
+        <text>Дьявол: Напомни почему ты винишь меня во всех смертных грехах?</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Мерф: Ты демон, демон неудач и несчастий.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Мерф: С тех пор как ты со мной, меня преследуют одни беды.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Зато теперь у тебя есть кто-то на кого можно списать всю вину.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+</dialogue>

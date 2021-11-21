@@ -1,0 +1,20 @@
+<dialogue>
+    <sentence>
+        <text>Мерф: Отвечай честно, тебе нравится приносить страдания? Портить чью-то жизнь?</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath> 
+        <triggerEvent>false</triggerEvent> 
+    </sentence>
+    <sentence>  
+        <text>Дьявол: Зависит от контекста.</text> 
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Бывает такое, что кому-то хочется, чтобы кто-то конкретный приносил несчастья.</text> 
+        <duration>3</duration>  
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>   
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+</dialogue>

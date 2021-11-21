@@ -1,0 +1,44 @@
+<dialogue>
+    <sentence>  
+        <text>Дьявол: Знаешь, а я все еще здесь.</text> 
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>   \
+        <triggerEvent>true</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Мерф: Что? Как это возможно?</text>
+        <duration>3</duration>     
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath> 
+        <triggerEvent>false</triggerEvent> 
+    </sentence>
+    <sentence>
+        <text>Дьявол: Закрывая глаза, на то, что мы всего лишь актеры в придуманной постановке, ты сама знаешь ответ.</text>
+        <duration>3</duration>   
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent> 
+    </sentence>
+    <sentence> 
+        <text>Дьявол: Я - удобное средство избавления от любой вины.</text> 
+        <duration>3</duration>  
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent> 
+    </sentence>
+    <sentence> 
+        <text>Дьявол: Выдуманное проклятие, понимаешь?</text>
+        <duration>3</duration> 
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>  
+        <text>Дьявол: Для многих и многих, кто не готов поверить в существование случайности и собственной глупости, но с легкостью готов принять влияние высших сил на свою жизнь.</text> 
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath> 
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence> 
+        <text>Дьявол: Наверное, в этом есть даже что-то благородное.</text>
+        <duration>3</duration>    
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath> 
+        <triggerEvent>true</triggerEvent>
+    </sentence>
+</dialogue>

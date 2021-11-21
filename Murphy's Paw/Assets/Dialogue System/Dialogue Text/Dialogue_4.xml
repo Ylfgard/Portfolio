@@ -1,0 +1,20 @@
+<dialogue>
+    <sentence>
+            <text>Дьявол: Мерф!</text> 
+            <duration>3</duration> 
+            <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+            <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence> 
+        <text>Дьявол: Ты бы предпочла упасть с платформы в лаву или заблудиться в тоннеле?</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Можешь не отвечать.</text> 
+        <duration>3</duration> 
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath> 
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+</dialogue>

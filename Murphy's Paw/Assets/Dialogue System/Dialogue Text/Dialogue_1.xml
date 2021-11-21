@@ -1,0 +1,44 @@
+<dialogue>
+    <sentence>
+        <text>Дьявол: Ну вот и осталось совсем чуть-чуть.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: И ты избавишься от меня.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Насовсем.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Прямо как ты и хотела.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Мерф?</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Мерф: Я просто хочу пройти уже эту долину и покончить с этим.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_meow</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+    <sentence>
+        <text>Дьявол: Если бы у меня было тело, я бы пожал тебе руку, но я просто голос в твоей голове.</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+</dialogue>

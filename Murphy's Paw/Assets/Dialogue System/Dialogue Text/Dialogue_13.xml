@@ -1,0 +1,8 @@
+<dialogue>
+    <sentence>
+        <text>Мерф: Вот оно! Звезда!</text>
+        <duration>3</duration>
+        <fmodSoundPath>event:/Voice/text_author</fmodSoundPath>
+        <triggerEvent>false</triggerEvent>
+    </sentence>
+</dialogue>
