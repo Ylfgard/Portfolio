@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ceb864c6f21b146a5d676b3a96b692, type: 3}
+  m_Name: Squirrel Combination
+  m_EditorClassIdentifier: 
+  _combinations:
+  - {fileID: 11400000, guid: e5ada70649fa3f34e83c13c495f9011a, type: 2}
+  - {fileID: 11400000, guid: 1674838540b453b4587dcde120190ab3, type: 2}
+  - {fileID: 11400000, guid: e6f169d5356543e43b9e47903e76d71e, type: 2}

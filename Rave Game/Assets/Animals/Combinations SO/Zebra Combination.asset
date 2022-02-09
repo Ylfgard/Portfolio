@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ceb864c6f21b146a5d676b3a96b692, type: 3}
+  m_Name: Zebra Combination
+  m_EditorClassIdentifier: 
+  _combinations:
+  - {fileID: 11400000, guid: 851a9a9819e8ffd4a9ca4133ea2223bd, type: 2}
+  - {fileID: 11400000, guid: b8488a880fb547f46891ad1fd285897f, type: 2}
+  - {fileID: 11400000, guid: afd388492dddbf74c93012feeb1c129b, type: 2}

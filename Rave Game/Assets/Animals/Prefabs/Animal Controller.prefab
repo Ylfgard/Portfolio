@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9021615971671715887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9021615971671715881}
+  - component: {fileID: 9021615971671715880}
+  - component: {fileID: 9021615971671715882}
+  - component: {fileID: 8520539360950655034}
+  m_Layer: 0
+  m_Name: Animal Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9021615971671715881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9021615971671715887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 722.5419, y: -88.35797, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9021615971671715880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9021615971671715887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f8841e8587e2a84582aae84194a438f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mediator: {fileID: 0}
+  _palette: {fileID: 0}
+  _finishDayButton: {fileID: 0}
+--- !u!114 &9021615971671715882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9021615971671715887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5eead04b2b4ee34eb1e9870646b69e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mediator: {fileID: 0}
+  _animalsData:
+  - _name: Dragonfly
+    _combination: {fileID: 11400000, guid: d8f0265283dae8741b181d7b5f6e7e05, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 842e30ce44993614ba881617f21fc983, type: 3}
+    _behavior: {fileID: 11400000, guid: 0236381fbc1a2f243b99fe0e0dc6b8bf, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Lizard
+    _combination: {fileID: 11400000, guid: 091d551381cf3e84b8729621211d0163, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: cf9f8f24412710345b874071890f3287, type: 3}
+    _behavior: {fileID: 11400000, guid: 3e029327da4454149bdd3772c5da2145, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Sparrow
+    _combination: {fileID: 11400000, guid: cb8927b2e7c70c949a8101a37ba3cb6d, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 2bebe79d2d28a064383e77ebcdd8ae1e, type: 3}
+    _behavior: {fileID: 11400000, guid: 4a232cc273583b44c9a8c99651b935fd, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Fox
+    _combination: {fileID: 11400000, guid: 52c50f9a90aefa049ae54a0c59c84f5f, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 97ea3b91fe4b23c43a6a15add41221ed, type: 3}
+    _behavior: {fileID: 11400000, guid: 5d63f624ab71a994993b499c18f7dcd5, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Canary
+    _combination: {fileID: 11400000, guid: 670b184a208415649bbd9e84b5837015, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: b5348a103da08a34ca2bc257fdd51bc6, type: 3}
+    _behavior: {fileID: 11400000, guid: 3d411a2fa54c77b46828b08315199814, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Eublefar
+    _combination: {fileID: 11400000, guid: 159fdb6c6393bf64a80538f81b7e4523, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 6dfaf3b6e2f67354fb42e96a98bb3c23, type: 3}
+    _behavior: {fileID: 11400000, guid: 590f4b2312bea7143aceaa7fd831f064, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Bee
+    _combination: {fileID: 11400000, guid: fca99f4727d8ea748aed6d077548d302, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 544950c99c5e85d41a391b0c6fd06687, type: 3}
+    _behavior: {fileID: 11400000, guid: 2bdaf68e0792d1640975dd309f4717b2, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Green bullfinch
+    _combination: {fileID: 11400000, guid: 0c357a9c76c93134fad4a59de1dfa2fc, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 0a6515c745e54444c9a36adcab0ed797, type: 3}
+    _behavior: {fileID: 11400000, guid: 1f295871cca8ebc4ba02312588a6e338, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Parrot
+    _combination: {fileID: 11400000, guid: 45828ceb240e9c14e99842d475a1ece3, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: ade6eef6cfac61649883992e1e2e59d0, type: 3}
+    _behavior: {fileID: 11400000, guid: fe60262df7fed804293b92836d47077d, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Red panda
+    _combination: {fileID: 11400000, guid: 13a59728d736c34479210e959fb551c3, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: b610a1f6ef5492a42bbccd698a7dcf58, type: 3}
+    _behavior: {fileID: 11400000, guid: 28a37f900dedb844fb1db6333d3af392, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Butterfly
+    _combination: {fileID: 11400000, guid: 9964b6c15ffe54d4fa835dd88ef06ae2, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 829b35f22c054e841b4238c6d279a1bf, type: 3}
+    _behavior: {fileID: 11400000, guid: 81e5ca23b330d7e45aae35b06f20bb92, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Green cardinal
+    _combination: {fileID: 11400000, guid: c7c952cc2689fc146b1b606cc258c7a0, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 1f7f62dc5a613bb408fb6dccb6f96238, type: 3}
+    _behavior: {fileID: 11400000, guid: 61b5b7cacd3c10142b287c70b2d3ded5, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Chameleon
+    _combination: {fileID: 11400000, guid: 1e65a9aae0d6d2f42819cc00acf4b645, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: bef62bbfcb580dd40ac1a174148f53db, type: 3}
+    _behavior: {fileID: 11400000, guid: c6523e1640369af4dadf0199f2a08b8f, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Toucan
+    _combination: {fileID: 11400000, guid: ce7e62f1b5e2c7c4d8b33b9f9ac0b9ad, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 003bfa33f1e2636498f05e4a853403af, type: 3}
+    _behavior: {fileID: 11400000, guid: ab50c53dd5060514e8edb8c4ffd725fb, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Giraffe
+    _combination: {fileID: 11400000, guid: 01ff6c1bc0c70fa40a6664f5a855e7b2, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: ddd1492878a765b4cbae2db3b296291c, type: 3}
+    _behavior: {fileID: 11400000, guid: 5353135f309114443aa0162f663da418, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Horny beetle
+    _combination: {fileID: 11400000, guid: 7511754cab161b844b5291a9b1daecfb, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 7301e09be46ed2d40be2f5f2acfe140a, type: 3}
+    _behavior: {fileID: 11400000, guid: eab6617896f829449b7e8cda2ab2f8c2, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Squirrel
+    _combination: {fileID: 11400000, guid: 254ad2c5be9da9f4196213af7e2de22c, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 78178b9542e961d4c83fb428b19ffdcb, type: 3}
+    _behavior: {fileID: 11400000, guid: 08d7c13464fe14d4ea06ab676e034f84, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Zebra
+    _combination: {fileID: 11400000, guid: ca6b6f4f5263e3442bfe9db98b6ac37a, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: d6f907cf448c4184f8fe0d617bf7ce39, type: 3}
+    _behavior: {fileID: 11400000, guid: b83682a85eb68cd40bc11d2eb2605f96, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Martin
+    _combination: {fileID: 11400000, guid: b0d4ccc93ec00cd4c97221d4ea2b97b4, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 96ddc305d9a9de64b970ce18ef21e6e9, type: 3}
+    _behavior: {fileID: 11400000, guid: 5dc43b55849e5414ab0467f988cf124d, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Frog
+    _combination: {fileID: 11400000, guid: da5060044900d7e42a8248d54ebdbadd, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 3e5887da056b7dd46acfea7990babe13, type: 3}
+    _behavior: {fileID: 11400000, guid: 478ffbc39fdac3448ad0862644d07b02, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Mountain goat
+    _combination: {fileID: 11400000, guid: ba5c054909bebc64a9ba06d769adb87c, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 32e4b6c0a0d35cf47b341874f5e25af1, type: 3}
+    _behavior: {fileID: 11400000, guid: 5a2757759988cd54badc7d32661671c5, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Penguin
+    _combination: {fileID: 11400000, guid: 6549157f16ce4c646b6f29635ca77bd2, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: 047dd21c7a8bbc5418bde719df5ed76b, type: 3}
+    _behavior: {fileID: 11400000, guid: a247c6e4ed57cbf4e9bb3e8f14101817, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Wolf
+    _combination: {fileID: 11400000, guid: f3ca08bf6c34b6348ac696c58b20b1ee, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: bdecab6052764394383ad61f2d65d5eb, type: 3}
+    _behavior: {fileID: 11400000, guid: 4ba8935256a0f47409e9110fecf3804d, type: 2}
+    _animalOnLevel: {fileID: 0}
+  - _name: Emerald butterfly
+    _combination: {fileID: 11400000, guid: 7186dbe1d34878f45a4df71743497989, type: 2}
+    _prefab: {fileID: 6361173195296504850, guid: f23bbd6c370c41b49a92552196494b75, type: 3}
+    _behavior: {fileID: 11400000, guid: 057349aef1b275547bf8d5c94211a2a8, type: 2}
+    _animalOnLevel: {fileID: 0}
+--- !u!114 &8520539360950655034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9021615971671715887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8001498a8aa1045828cc33b87c1ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mediator: {fileID: 0}
+  _animalSpawner: {fileID: 9021615971671715880}
+  _animalDataKeeper: {fileID: 9021615971671715882}

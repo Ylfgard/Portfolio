@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &182299001218791373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 182299001218791375}
+  - component: {fileID: 182299001218791372}
+  m_Layer: 0
+  m_Name: Palette
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &182299001218791375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182299001218791373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.780495, y: -0.3084881, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &182299001218791372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182299001218791373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc19835bcdc6ed64d820f372b5bb96ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sellPainSound:
+    Guid:
+      Data1: 3346150
+      Data2: 1121572955
+      Data3: 1158521260
+      Data4: 330140777
+    Path: event:/SFX/sell
+  _hintSound:
+    Guid:
+      Data1: -1524475601
+      Data2: 1333841646
+      Data3: 9004935
+      Data4: -1401828412
+    Path: event:/SFX/Buy
+  _animalDataKeeper: {fileID: 0}
+  _mediator: {fileID: 0}
+  _desaturation:
+    _itemSprite: {fileID: 21300000, guid: 3be45371e1528d7488d4e7af5311b36f, type: 3}
+    _price: 1
+    _count: 1
+  _paintCells:
+  - _itemSprite: {fileID: 21300000, guid: d3c2abee0e7f8584aaad6a8126d58538, type: 3}
+    _price: 2
+    _count: 0
+    _paint: {fileID: 11400000, guid: ff545459ad776bb479e5b3525f60be2d, type: 2}
+    _available: 0
+  - _itemSprite: {fileID: 21300000, guid: 8103ab72045d8c14eb627a0813d20444, type: 3}
+    _price: 1
+    _count: 5
+    _paint: {fileID: 11400000, guid: c0ae47fd66ac8624481339909d576ac1, type: 2}
+    _available: 1
+  - _itemSprite: {fileID: 21300000, guid: efb7b979285fb5845ab78ed1765119ef, type: 3}
+    _price: 2
+    _count: 0
+    _paint: {fileID: 11400000, guid: faf72f2558ce6e14cb8d0c92d3c5ece1, type: 2}
+    _available: 0
+  - _itemSprite: {fileID: 21300000, guid: c9c0e135a3443aa4db0bc73e88f1ea46, type: 3}
+    _price: 3
+    _count: 0
+    _paint: {fileID: 11400000, guid: 97c64cfbc6fca6346bd526d3d6f1fae5, type: 2}
+    _available: 0
+  - _itemSprite: {fileID: 21300000, guid: 214ef1fd4bbcde64c9dbb313b9bf2c0d, type: 3}
+    _price: 3
+    _count: 0
+    _paint: {fileID: 11400000, guid: ce05d876aedd6d749839acbdf7c54f00, type: 2}
+    _available: 0
+  - _itemSprite: {fileID: 21300000, guid: 17fd745c23dab564db7f3676be9a8f3a, type: 3}
+    _price: 1
+    _count: 5
+    _paint: {fileID: 11400000, guid: 47530cd8ecede3641b2ac972e76f9b72, type: 2}
+    _available: 1
+  _storeItemSendCommand: {fileID: 0}

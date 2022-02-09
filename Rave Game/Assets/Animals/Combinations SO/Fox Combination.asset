@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ceb864c6f21b146a5d676b3a96b692, type: 3}
+  m_Name: Fox Combination
+  m_EditorClassIdentifier: 
+  _combinations:
+  - {fileID: 11400000, guid: 202e02baf6bb81c4db790b2418d00194, type: 2}
+  - {fileID: 11400000, guid: 64f62726c7e5f9148b6285abd2b53297, type: 2}
+  - {fileID: 11400000, guid: 8b9510693e6bac449bcd9ea01a47a6a6, type: 2}
